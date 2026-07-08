@@ -1140,6 +1140,9 @@ See the **LICENSE** file for additional information.
 <div align="center">
 
 ## Samarth Phakatkar
+## Soham Kulkarni
+## Salina Shaikh
+
 
 Electronics & Telecommunication Engineering Student
 
