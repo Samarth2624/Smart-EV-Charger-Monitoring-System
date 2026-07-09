@@ -833,7 +833,11 @@ The embedded protection system continuously evaluates sensor readings against pr
 - Equipment Protection
 
 ---
+## 🐍 Contribution Snake
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Samarth2624/Samarth2624/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
 # ⚠ Challenges Faced
 
 Developing an embedded IoT system required addressing both hardware and software challenges.
