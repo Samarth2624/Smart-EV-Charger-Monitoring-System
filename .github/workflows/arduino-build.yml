@@ -35,4 +35,4 @@ jobs:
         run: |
           arduino-cli compile \
           --fqbn esp32:esp32:esp32 \
-          firmware/EV_Charger
+          firmware/EV_Charger.ino
