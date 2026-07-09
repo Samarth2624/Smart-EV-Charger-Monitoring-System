@@ -1,0 +1,38 @@
+name: Build ESP32 Firmware
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+
+      - name: Update Index
+        run: arduino-cli core update-index
+
+      - name: Install ESP32 Core
+        run: |
+          arduino-cli config init
+          arduino-cli core update-index
+          arduino-cli core install esp32:esp32
+
+      - name: Install Required Libraries
+        run: |
+          arduino-cli lib install "Blynk"
+          arduino-cli lib install "ArduinoJson"
+
+      - name: Compile Sketch
+        run: |
+          arduino-cli compile \
+          --fqbn esp32:esp32:esp32 \
+          firmware/EV_Charger
