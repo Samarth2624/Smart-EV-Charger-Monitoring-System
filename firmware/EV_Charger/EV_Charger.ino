@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3F1CYqzi7"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "SMART EV"
-#define BLYNK_AUTH_TOKEN "QN3QIxbs5gBQLIlB-EpRFmdGgwDd1ed5"
+#define BLYNK_AUTH_TOKEN ""
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
