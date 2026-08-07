@@ -6,8 +6,8 @@
 #include <BlynkSimpleEsp32.h>
 
 // WiFi
-char ssid[] = "Vivo1920";
-char pass[] = "8623990668";
+char ssid[] = "";
+char pass[] = "";
 
 // Pins
 #define VOLTAGE_PIN 34
